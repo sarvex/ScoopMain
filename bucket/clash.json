@@ -1,12 +1,12 @@
 {
-    "version": "1.14.0",
+    "version": "1.15.1",
     "description": "A rule-based tunnel",
     "homepage": "https://github.com/Dreamacro/clash",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Dreamacro/clash/releases/download/v1.14.0/clash-windows-amd64-v1.14.0.zip",
-            "hash": "3aac3da4707461e9bddc284c4b759b7da359847206f6b1387e7eb61ba504908c",
+            "url": "https://github.com/Dreamacro/clash/releases/download/v1.15.1/clash-windows-amd64-v1.15.1.zip",
+            "hash": "8e3c0a83fd8243f0bc372cbf92455cf63918a33c3fbd9356db2af3c8731f7f4b",
             "bin": [
                 [
                     "clash-windows-amd64.exe",
@@ -15,8 +15,8 @@
             ]
         },
         "32bit": {
-            "url": "https://github.com/Dreamacro/clash/releases/download/v1.14.0/clash-windows-386-v1.14.0.zip",
-            "hash": "269edc215146eecac9f880abc8e4002e5d52b43ad71db15227e6af5cd06fb10d",
+            "url": "https://github.com/Dreamacro/clash/releases/download/v1.15.1/clash-windows-386-v1.15.1.zip",
+            "hash": "3a4f184b8cbbd6be7a0a58529176be5de6e8cf7a7d8555ccdb2a9227a8c7cfed",
             "bin": [
                 [
                     "clash-windows-386.exe",
