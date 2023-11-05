@@ -1,16 +1,20 @@
 {
-    "version": "1.93.1",
+    "version": "1.100.0",
     "description": "A command line tool for DigitalOcean services",
     "homepage": "https://github.com/digitalocean/doctl",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/digitalocean/doctl/releases/download/v1.93.1/doctl-1.93.1-windows-amd64.zip",
-            "hash": "18a5e4a1b158b9c598762a836e18521bd015faaab681615ca48e99372ca77272"
+            "url": "https://github.com/digitalocean/doctl/releases/download/v1.100.0/doctl-1.100.0-windows-amd64.zip",
+            "hash": "84c0b963685205e7d0da92cc77de6de20d7094a26bce2f6dc522e614c5486b9c"
         },
         "32bit": {
-            "url": "https://github.com/digitalocean/doctl/releases/download/v1.93.1/doctl-1.93.1-windows-386.zip",
-            "hash": "ec39a66ce6376bececbdd4453eff1fa353615c4d474ab9215b2c254d52491034"
+            "url": "https://github.com/digitalocean/doctl/releases/download/v1.100.0/doctl-1.100.0-windows-386.zip",
+            "hash": "a385b17bb6ff66815d6a1cbca3492888062617302712a277472eb8a5462fa2b6"
+        },
+        "arm64": {
+            "url": "https://github.com/digitalocean/doctl/releases/download/v1.100.0/doctl-1.100.0-windows-arm64.zip",
+            "hash": "042aabf244883f8fa6cbb2a0f968e13e505a12fdd4eb0f58e290badfee8e9d60"
         }
     },
     "bin": "doctl.exe",
@@ -22,6 +26,9 @@
             },
             "32bit": {
                 "url": "https://github.com/digitalocean/doctl/releases/download/v$version/doctl-$version-windows-386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/digitalocean/doctl/releases/download/v$version/doctl-$version-windows-arm64.zip"
             }
         },
         "hash": {

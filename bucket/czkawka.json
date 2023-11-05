@@ -1,12 +1,12 @@
 {
-    "version": "5.1.0",
+    "version": "6.1.0",
     "description": "Tool to find duplicates, similar images and music.",
     "homepage": "https://github.com/qarmin/czkawka",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qarmin/czkawka/releases/download/5.1.0/windows_czkawka_cli.exe#/czkawka.exe",
-            "hash": "9fb7e032807c81a30b5db26c5525774c2ad17f790396e1e989ce427782b3cb2e"
+            "url": "https://github.com/qarmin/czkawka/releases/download/6.1.0/windows_czkawka_cli.exe#/czkawka.exe",
+            "hash": "9832398939fb8dd206cdb16918629fbaf2342df1591c71a71b5f3949b0567521"
         }
     },
     "bin": [

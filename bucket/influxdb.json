@@ -1,5 +1,5 @@
 {
-    "version": "2.7.0",
+    "version": "2.7.3",
     "description": "Scalable datastore for metrics, events, and real-time analytics.",
     "homepage": "https://www.influxdata.com/",
     "license": "MIT",
@@ -9,9 +9,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://dl.influxdata.com/influxdb/releases/influxdb2-2.7.0-windows-amd64.zip",
-            "hash": "7f07dab585592e4e55d100f7fbc085d491e1d9a275f344492062d155193c8dec",
-            "extract_dir": "influxdb2_windows_amd64"
+            "url": "https://dl.influxdata.com/influxdb/releases/influxdb2-2.7.3-windows.zip",
+            "hash": "94c468dffe84f7399e14e000ffc18372d74e1fa8956020b2c975edbdec03c58b"
         }
     },
     "bin": "influxd.exe",
@@ -23,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dl.influxdata.com/influxdb/releases/influxdb2-$version-windows-amd64.zip",
+                "url": "https://dl.influxdata.com/influxdb/releases/influxdb2-$version-windows.zip",
                 "hash": {
                     "url": "https://portal.influxdata.com/versions.json",
                     "jsonpath": "$.influxdb2.downloads[?(@.platform =~ /^Windows/)].sha256"

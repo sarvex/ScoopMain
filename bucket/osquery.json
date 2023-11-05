@@ -1,12 +1,12 @@
 {
-    "version": "5.8.2",
+    "version": "5.10.2",
     "description": "SQL powered operating system instrumentation, monitoring, and analytics",
     "homepage": "https://osquery.io/",
     "license": "Apache-2.0,GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/osquery/osquery/releases/download/5.8.2/osquery-5.8.2.msi",
-            "hash": "0a212797c20b7bc7da2b3d529df712c072794f58d04ef851fa4555a944d29335"
+            "url": "https://github.com/osquery/osquery/releases/download/5.10.2/osquery-5.10.2.msi",
+            "hash": "f5a6955db724559638e43aef181e26eadfe4bfb827907ffd134d9abb0512cc58"
         }
     },
     "extract_dir": "osquery",

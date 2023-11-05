@@ -1,16 +1,16 @@
 {
-    "version": "1.4.4",
+    "version": "1.4.10",
     "description": "CNCF-certified Kubernetes distribution that runs entirely within Docker containers",
     "homepage": "https://rancher.com/products/rke/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rancher/rke/releases/download/v1.4.4/rke_windows-amd64.exe#/rke.exe",
-            "hash": "c4030e5bc626f123dd2ade74115e2625ee60d0f85b442d122dbdc286995a20c1"
+            "url": "https://github.com/rancher/rke/releases/download/v1.4.10/rke_windows-amd64.exe#/rke.exe",
+            "hash": "6c5145800a75ac4dab22a91741652d8e22e31c4430c03d00c13d9e5674e90470"
         },
         "32bit": {
-            "url": "https://github.com/rancher/rke/releases/download/v1.4.4/rke_windows-386.exe#/rke.exe",
-            "hash": "916f7762ef53bc60b9972c6de4194b38bfdd4485ba6ee82f726534c22ec4bcb3"
+            "url": "https://github.com/rancher/rke/releases/download/v1.4.10/rke_windows-386.exe#/rke.exe",
+            "hash": "ddbb1484881e538e167b54ce593e1834eaded75f99aaedb08e79c88d55fbd8ba"
         }
     },
     "bin": "rke.exe",

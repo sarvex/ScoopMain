@@ -1,0 +1,19 @@
+{
+    "version": "1.0.1",
+    "description": "An anti-bikeshedding Kotlin linter with built-in formatter",
+    "homepage": "https://github.com/pinterest/ktlint/",
+    "license": "MIT",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "url": "https://github.com/pinterest/ktlint/releases/download/1.0.1/ktlint#/ktlint.jar",
+    "hash": "099091ed4254f79ee77c7ee1d62fd0dccfbbe780ddfba204765b3ab3b5997b95",
+    "bin": "ktlint.jar",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/pinterest/ktlint/releases/download/$version/ktlint#/ktlint.jar"
+    }
+}

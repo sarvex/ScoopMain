@@ -1,12 +1,16 @@
 {
-    "version": "0.30.1",
+    "version": "0.32.2",
     "description": "A CLI for interacting with Tekton - a cloud native CI/CD solution",
     "homepage": "https://github.com/tektoncd/cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tektoncd/cli/releases/download/v0.30.1/tkn_0.30.1_Windows_x86_64.zip",
-            "hash": "bafb35a3ed707a4d7e02422fa4573ee85f5d9710a323feec553fd4f4cc7cdd45"
+            "url": "https://github.com/tektoncd/cli/releases/download/v0.32.2/tkn_0.32.2_Windows_x86_64.zip",
+            "hash": "b179199a2a2c7a551e2726f3c65be8df928b945701bc1d7d2b837a718bbdbdd6"
+        },
+        "arm64": {
+            "url": "https://github.com/tektoncd/cli/releases/download/v0.32.2/tkn_0.32.2_Windows_aarch64.zip",
+            "hash": "7984571052a7e43dacfec268e101929cfd2eb29a01a82be13d3fe2fe450a1ee3"
         }
     },
     "bin": "tkn.exe",
@@ -15,6 +19,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/tektoncd/cli/releases/download/v$version/tkn_$version_Windows_x86_64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/tektoncd/cli/releases/download/v$version/tkn_$version_Windows_aarch64.zip"
             }
         },
         "hash": {

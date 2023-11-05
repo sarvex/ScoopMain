@@ -1,12 +1,12 @@
 {
-    "version": "0.51.0",
+    "version": "0.58.0",
     "description": "Policy-based control for cloud native environments",
     "homepage": "https://www.openpolicyagent.org",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/open-policy-agent/opa/releases/download/v0.51.0/opa_windows_amd64.exe#/opa.exe",
-            "hash": "34be29ebbcf256dc87f00ce91792e53edbf5ab631e31b14b8b712b70c50921da"
+            "url": "https://github.com/open-policy-agent/opa/releases/download/v0.58.0/opa_windows_amd64.exe#/opa.exe",
+            "hash": "da61c5745c545b64047efe6c5a730f38f63dfa1d07c29e1f1297fe235a28ddd7"
         }
     },
     "bin": "opa.exe",

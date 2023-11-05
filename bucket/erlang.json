@@ -1,19 +1,19 @@
 {
-    "version": "25.3",
+    "version": "26.1.2",
     "description": "A programming language used to build massively scalable soft real-time systems with requirements on high availability.",
     "homepage": "https://www.erlang.org",
     "license": "Apache-2.0",
     "suggest": {
-        "Visual C/C++ Redistributable 2013": "extras/vcredist2013"
+        "vcredist": "extras/vcredist2013"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/erlang/otp/releases/download/OTP-25.3/otp_win64_25.3.exe#/dl.7z",
-            "hash": "380b55e668896cb71c9d64a26808d723bc039162745d6fa177baadb84e2310ce"
+            "url": "https://github.com/erlang/otp/releases/download/OTP-26.1.2/otp_win64_26.1.2.exe#/dl.7z",
+            "hash": "8cccc19c09b2da6522385a21c2649b06e84065ad45a93c94e475e9b5d5b58b31"
         },
         "32bit": {
-            "url": "https://github.com/erlang/otp/releases/download/OTP-25.3/otp_win32_25.3.exe#/dl.7z",
-            "hash": "956f15eecdcfcc98537e482fe8f1051631c295ce590b63e01bc3a0bbe0cd3060"
+            "url": "https://github.com/erlang/otp/releases/download/OTP-26.1.2/otp_win32_26.1.2.exe#/dl.7z",
+            "hash": "dcf432f9b5c4721dcff82897bdf33f66fe2274dfa9989be9b7bce5fedae2dd52"
         }
     },
     "installer": {
@@ -37,8 +37,8 @@
         "ERLANG_HOME": "$dir"
     },
     "checkver": {
-        "url": "https://erlang.org/download/otp_versions_tree_app_vsns.html",
-        "regex": "otp_win64_([\\d.]+)\\.exe"
+        "url": "https://www.erlang.org/downloads",
+        "regex": "https://github\\.com/erlang/otp/releases/download/OTP-([\\d.]+)/otp_win64_\\1\\.exe"
     },
     "autoupdate": {
         "architecture": {

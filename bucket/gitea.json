@@ -1,16 +1,16 @@
 {
-    "version": "1.19.1",
+    "version": "1.20.5",
     "description": "A painless self-hosted Git service",
     "homepage": "https://gitea.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://dl.gitea.com/gitea/1.19.1/gitea-1.19.1-windows-4.0-amd64.exe.xz",
-            "hash": "112555dd7abe33695a3ab2528313caa5309bd11ea6914d3f7609ed5b84a92d08"
+            "url": "https://dl.gitea.com/gitea/1.20.5/gitea-1.20.5-windows-4.0-amd64.exe.xz",
+            "hash": "847c686e8fb4efe4ab3feb12a41da85ae46db90f3f977b0f2c3b83b6852f8cd7"
         },
         "32bit": {
-            "url": "https://dl.gitea.com/gitea/1.19.1/gitea-1.19.1-windows-4.0-386.exe.xz",
-            "hash": "de99eee23bf837b6804c4ff871071d759afbadfdc84e0ce1a0666864c825323f"
+            "url": "https://dl.gitea.com/gitea/1.20.5/gitea-1.20.5-windows-4.0-386.exe.xz",
+            "hash": "b7aaaba0a5ff01d260a0fe585b4c8fe839aa225f108619672e42e48720ef196d"
         }
     },
     "installer": {
